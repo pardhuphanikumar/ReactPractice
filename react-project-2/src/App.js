@@ -4,10 +4,13 @@ import './App.css';
 //functional component
 import FunComp from './components/FunctionalComponent/Greet';
 import ClsComp from './components/ClassComponents/Welcome';
+import Counter from './components/setState/Counter';
 
 function App() {
   return (
     <div className="App">
+      <Counter />
+
       <FunComp />
       <ClsComp />
     </div>
