@@ -5,12 +5,17 @@ import './App.css';
 import FunComp from './components/FunctionalComponent/Greet';
 import ClsComp from './components/ClassComponents/Welcome';
 import Counter from './components/setState/Counter';
+import UserGreetings from './components/ContitionalRendering/UserGreetings';
+import UserGreetings1 from './components/ContitionalRendering/UserGreetings1';
+import UserGreetings2 from './components/ContitionalRendering/UserGreetings2';
 
 function App() {
   return (
     <div className="App">
+      <UserGreetings2 />
+      <UserGreetings1 />
+      <UserGreetings />
       <Counter />
-
       <FunComp />
       <ClsComp />
     </div>

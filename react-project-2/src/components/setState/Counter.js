@@ -24,7 +24,7 @@ class Counter extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="boxed">
                 count - {this.state.count}
                 count new - {this.state.count}
                 <button onClick={() => this.increment()}>click to increment</button>
