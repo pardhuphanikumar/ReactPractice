@@ -1,8 +1,14 @@
 import React from 'react';
 import './App.css';
-import ClickCounterTwo from './components/ClickCounterTwo';
-import HoverCounterTwo from './components/HoverCounterTwo';
-import Counter from './components/Counter';
+// import HookCounterTwo from './components/HooksState/HookCounterTwo';
+// import HookCounterThree from './components/HooksState/HookCounterThree';
+// import HookCounterFour from './components/HooksState/HookCounterFour';
+// import HookCounter from './components/HooksState/HookCounter';
+// import PostList from './components/PostList';
+// import PostForm from './components/PostForm';
+// import ClickCounterTwo from './components/ClickCounterTwo';
+// import HoverCounterTwo from './components/HoverCounterTwo';
+// import Counter from './components/Counter';
 // import ClickCounter from './components/ClickCounter';
 // import HoverCounter from './components/HoverCounter';
 // import PortalDemo from './components/PortalDemo';
@@ -11,7 +17,13 @@ import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
-      <Counter
+      {/* <HookCounterFour /> */}
+      {/* <HookCounterThree /> */}
+      {/* <HookCounterTwo /> */}
+      {/* <HookCounter /> */}
+      {/* <PostForm /> */}
+      {/* <PostList /> */}
+      {/* <Counter
         render={(count: any, incrementCount: any) => (
           <ClickCounterTwo name="pardhu" count={count} incrementCount={incrementCount} />
         )}
@@ -20,7 +32,7 @@ function App() {
         render={(count: any, incrementCount: any) => (
           <HoverCounterTwo name="pardhu" count={count} incrementCount={incrementCount} />
         )}
-      />
+      /> */}
       {/* <ClickCounter name="pardhu" /> */}
       {/* <HoverCounter name="pardhu" /> */}
       {/* Hello World */}

@@ -31,6 +31,7 @@ class PostList extends Component<Props, State> {
 	}
 	render() {
 		const { posts, errorMsg } = this.state
+		console.log(posts);
 		return (
 			<div>
 				List of posts
